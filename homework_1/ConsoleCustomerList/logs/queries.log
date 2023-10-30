@@ -1,0 +1,5 @@
+2023-02-01 14:45:33.670 [main] INFO  Main - Ввод пользователя: help
+2023-02-01 14:45:38.093 [main] INFO  Main - Ввод пользователя: add Василий Петров vasily.petrov@gmail.com +79215637722
+2023-02-01 14:45:45.566 [main] INFO  Main - Ввод пользователя: add Василий Прарарараетров vasily.petrov@gmail.com +79215637722
+2023-02-01 14:45:51.735 [main] INFO  Main - Ввод пользователя: list
+2023-02-01 14:45:56.440 [main] INFO  Main - Ввод пользователя: add Василий Петров vasily.petrov@gmail.com +7921563

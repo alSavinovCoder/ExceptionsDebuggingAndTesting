@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <File name="errorsMain" fileName="logs/errors.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <MarkerFilter marker = "INVALID_INPUT"/>
+            </Filters>
+        </File>
+        <File name="queriesMain" fileName="logs/queries.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <MarkerFilter marker = "INPUT_HISTORY"/>
+            </Filters>
+        </File>
+    </Appenders>
+    <loggers>
+        <root level="debug">
+            <appender-ref ref="errorsMain" level="error"/>
+            <appender-ref ref="queriesMain" level="info"/>
+        </root>
+    </loggers>
+</Configuration>
